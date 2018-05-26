@@ -59,4 +59,7 @@ class TicTacToe
     index = input_to_index(user_input)
     valid_move?(index) ? move(index, value = current_player) && display_board : turn
   end
+  
+  def won?
+    : 
 end
