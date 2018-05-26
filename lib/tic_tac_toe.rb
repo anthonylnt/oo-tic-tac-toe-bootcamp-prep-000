@@ -90,7 +90,7 @@ class TicTacToe
   
   # main method of the tic tac toe application
   def play
-    while !over?
+    while !over? do
       turn
     end
     if won?
