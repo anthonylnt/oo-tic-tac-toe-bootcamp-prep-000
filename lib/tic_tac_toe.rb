@@ -87,4 +87,7 @@ class TicTacToe
       @board[winning_combo.first]
     end
   end
+  
+  def play
+    while 
 end
