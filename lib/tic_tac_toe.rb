@@ -97,4 +97,5 @@ class TicTacToe
     elsif draw?
       puts "Its a draw"
     end
+  end
 end
