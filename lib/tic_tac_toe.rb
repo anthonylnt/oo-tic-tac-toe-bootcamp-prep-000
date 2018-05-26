@@ -78,7 +78,7 @@ end
   
   # check if game is over no matter which way
   def over?
-    won? || full?
+    won? || draw?
   end
   
   # give the winner value
