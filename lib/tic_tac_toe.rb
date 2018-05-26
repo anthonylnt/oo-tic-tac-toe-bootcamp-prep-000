@@ -94,7 +94,7 @@ class TicTacToe
       turn
     end
     player = winner
-    if won?
+    if player
       puts "Congratulations #{player}!"
     elsif draw?
       puts "Cat's Game!"
