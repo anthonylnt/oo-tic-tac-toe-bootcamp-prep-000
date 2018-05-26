@@ -91,12 +91,12 @@ class TicTacToe
   # main method of the tic tac toe application
   def play
     while !over?
-      turn
       if won?
         puts "Congratulations #{winner}!"
-     elsif draw?
+      elsif draw?
         puts "Cat's Game!"
-     end
+      turn
+      end
     end
   end
 end
