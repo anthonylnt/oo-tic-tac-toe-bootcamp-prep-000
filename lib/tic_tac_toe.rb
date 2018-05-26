@@ -96,7 +96,7 @@ class TicTacToe
     player = winner
     if player
       puts "Congratulations #{player}!"
-    else draw?
+    else
       puts "Cat's Game!"
     end
   end
