@@ -73,8 +73,8 @@ class TicTacToe
   
   # check if its a draw (no one won)
   def draw?
-    full? && !won?
-  end
+  !won? && full?
+end
   
   # check if game is over no matter which way
   def over?
