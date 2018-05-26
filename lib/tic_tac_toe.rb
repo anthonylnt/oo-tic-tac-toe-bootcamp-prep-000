@@ -93,7 +93,6 @@ class TicTacToe
     while !over? do
       turn
     end
-    winner
     if won?
       puts "Congratulations #{winner}!"
     elsif draw?
