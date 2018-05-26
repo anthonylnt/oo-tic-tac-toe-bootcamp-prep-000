@@ -32,11 +32,11 @@ class TicTacToe
   
   def position_taken?(index)
   !(@board[index] ==  " " || @board[index] == nil)
-end
+  end
   
   def valid_move?(index)
   index.between?(0,8) && !position_taken?(index)
-end
+  end
   
   def turn
     puts "Enter your position (1-9)"
@@ -52,4 +52,10 @@ end
   def current_player
     turn_count % 2 == 0 ? "X" : "O"
   end
+  
+  def turn 
+    puts "Enter your position (1-9):"
+    user_input = gets.strip
+    user_input = input_to_index(index)
+    
 end
